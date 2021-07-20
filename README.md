@@ -1,12 +1,26 @@
-# Переменные окружения
-## DB_HOST=localhost
-## DB_PORT=5432
-## DB_USER=misir
-## DB_PASS=RhVZrV9qrZbB4zn5
-## DB_NAME=postgres
-## JWTKEY=random_secret_key
-## TOKEN_EXPIRATION=48h
-## BEARER=Bearer
+## Переменные окружения
+
+```bash
+# Database Hostname
+$ DB_HOST=localhost
+
+# Database Port
+$ DB_PORT=5432
+
+# Database User
+$ DB_USER=misir
+
+# Database Password
+$ DB_PASS=RhVZrV9qrZbB4zn5
+
+# Database Name
+$ DDB_NAME=postgres
+
+# JWT Secret Key
+$ JWTKEY=random_secret_key
+
+# Token Expire
+$ TOKEN_EXPIRATION=48h
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
